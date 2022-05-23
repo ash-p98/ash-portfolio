@@ -1,0 +1,75 @@
+.final {
+  height: 50vh;
+  padding: 20px;
+  padding-bottom: 100px;
+  background: #2a2a2a;
+}
+.columns {
+  display: flex;
+  justify-content: space-around;
+  align-items: space between;
+}
+.skill {
+  text-align: center;
+  color: #4195bb;
+}
+
+.col1 {
+  width: 45%;
+}
+
+.col2 {
+  width: 45%;
+}
+
+.skillHolder {
+  display: flex;
+  align-items: center;
+
+  .cont {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+  }
+}
+
+.bar {
+  width: 90%; /* Full width */
+  background-color: white; /* Grey background */
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.qty {
+  border-radius: 100px;
+  color: white;
+  font-weight: 900;
+}
+
+.html, .js, .sass, .react {
+  width: 80%;
+  text-align: center;
+  background: #4195bb;
+}
+
+.java{
+    width: 70%;
+    text-align: center;
+    background: #4195bb;
+}
+
+.flutter, .ps, .prem{
+    width: 90%;
+    text-align: center;
+    background: #4195bb;
+}
+
+h4 {
+    margin: 10px;
+    padding: 1px;
+  text-align: center;
+  color: #4195bb;
+}
